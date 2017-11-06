@@ -8,5 +8,24 @@
     {
       "url": "https://github.com/metadaddy/streamsets-buildpack-sdc"
     }
-  ]
+  ],
+  "env": {
+    "DPM_USER": {
+      "description": "Your DPM username",
+      "required" : true
+    },
+    "DPM_PASSWORD": {
+      "description": "Your DPM password",
+      "required" : true
+    },
+    "SDC_VERSION": {
+      "description": "SDC version to deploy",
+      "required" : true,
+      "value" : "3.0.0.0-SNAPSHOT"
+    },
+    "PIPELINE_COMMIT_ID" : {
+      "description": "Commit ID of the pipeline to deploy",
+      "required" : true
+    }
+  }
 }
