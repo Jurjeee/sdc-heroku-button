@@ -1,6 +1,6 @@
 {
-  "name": "StreamSets Data Collector on Heroku",
-  "description": "Run StreamSets Data Collector on the Heroku platform",
+  "name": "StreamSets Data Collector",
+  "description": "Run StreamSets Data Collector on Heroku",
   "repository": "https://github.com/metadaddy/sdc-heroku-button",
   "logo": "https://avatars2.githubusercontent.com/u/14020362",
   "keywords": ["bigdata", "ingest"],
