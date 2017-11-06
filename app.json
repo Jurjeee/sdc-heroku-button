@@ -26,6 +26,15 @@
     "PIPELINE_COMMIT_ID" : {
       "description": "Commit ID of the pipeline to deploy",
       "required" : true
+    },
+    "DPM_URL" : {
+      "description": "DPM Endpoint",
+      "required" : false,
+      "value" : "https://cloud.streamsets.com/"
+    },
+    "DPM_ORG" : {
+      "description": "DPM Organization",
+      "required" : false
     }
   }
 }
