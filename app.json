@@ -1,0 +1,12 @@
+{
+  "name": "StreamSets Data Collector on Heroku",
+  "description": "Run StreamSets Data Collector on the Heroku platform",
+  "repository": "https://github.com/metadaddy/sdc-heroku-button",
+  "logo": "https://avatars2.githubusercontent.com/u/14020362",
+  "keywords": ["bigdata", "ingest"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/metadaddy/streamsets-buildpack-sdc"
+    }
+  ]
+}
