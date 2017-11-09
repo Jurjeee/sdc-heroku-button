@@ -10,6 +10,18 @@
     }
   ],
   "env": {
+    "AWS_KEY": {
+      "description": "Your AWS Key",
+      "required" : true
+    },
+    "AWS_SECRET": {
+      "description": "Your AWS Secret",
+      "required" : true
+    },
+    "AWS_BUCKET": {
+      "description": "Your AWS Bucket",
+      "required" : true
+    },
     "DPM_USER": {
       "description": "Your DPM username",
       "required" : true
