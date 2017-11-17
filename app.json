@@ -49,5 +49,5 @@
       "required" : false
     }
   },
-  "success_url": "https://temp.streamsetscloud.com/#/jobs"
+  "success_url": "https://expo.streamsetscloud.com/#/jobs"
 }
