@@ -33,7 +33,7 @@
     "SDC_VERSION": {
       "description": "SDC version to deploy",
       "required" : true,
-      "value" : "3.0.0.0-RC2"
+      "value" : "3.0.0.0"
     },
     "PIPELINE_COMMIT_ID" : {
       "description": "Commit ID of the pipeline to deploy",
@@ -42,12 +42,12 @@
     "DPM_URL" : {
       "description": "DPM Endpoint",
       "required" : false,
-      "value" : "https://cloud.streamsets.com/"
+      "value" : "https://trailer.streamsetscloud.com/"
     },
     "DPM_ORG" : {
       "description": "DPM Organization",
       "required" : false
     }
   },
-  "success_url": "https://expo.streamsetscloud.com/#/jobs"
+  "success_url": "https://trailer.streamsetscloud.com/#/jobs"
 }
