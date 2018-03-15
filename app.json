@@ -44,7 +44,7 @@
     "SDC_VERSION": {
       "description": "SDC version to deploy",
       "required" : true,
-      "value" : "3.0.0.0"
+      "value" : "3.1.1.0"
     },
     "PIPELINE_COMMIT_ID" : {
       "description": "Commit ID of the pipeline to deploy",
