@@ -15,31 +15,31 @@
   "env": {
     "AWS_KEY": {
       "description": "Your AWS Key",
-      "required" : true
+      "required" : false
     },
     "AWS_SECRET": {
       "description": "Your AWS Secret",
-      "required" : true
+      "required" : false
     },
     "AWS_BUCKET": {
       "description": "Your AWS Bucket",
-      "required" : true
+      "required" : false
     },
     "DPM_USER": {
       "description": "Your DPM username",
-      "required" : true
+      "required" : false
     },
     "DPM_PASSWORD": {
       "description": "Your DPM password",
-      "required" : true
+      "required" : false
     },
     "SFDC_USERNAME": {
       "description": "Your Salesforce username",
-      "required" : true
+      "required" : false
     },
     "SFDC_PASSWORD": {
       "description": "Your Salesforce password",
-      "required" : true
+      "required" : false
     },
     "SDC_VERSION": {
       "description": "SDC version to deploy",
@@ -48,7 +48,7 @@
     },
     "PIPELINE_COMMIT_ID" : {
       "description": "Commit ID of the pipeline to deploy",
-      "required" : true
+      "required" : false
     },
     "DPM_URL" : {
       "description": "DPM Endpoint",
